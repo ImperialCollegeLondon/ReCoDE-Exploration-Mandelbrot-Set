@@ -9,8 +9,6 @@ The line `int num_cpus = std::thread::hardware_concurrency();` showed the number
 Regarding **memory access**, the nested loops can also be inefficient. The outer loop iterates over rows (`y`), while the inner loop iterates over columns (`x`). This pattern can lead to cache misses if data is not stored optimally in memory. Cache misses occur when the CPU searches for data in its cache but cannot find it, forcing it to retrieve data from the slower main memory (RAM). If the program utilized multiple threads, data access could be better arranged to make use of the cache, potentially improving performance.
 
 
-<p align="center">
-  <img src="/docs/Figures/Single_thread_diagram.png" alt="Single-threaded execution" width="60%">
-  <br>
-  <em>Figure: Diagram showing a single-threaded execution.</em>
-</p>
+![Figure: Diagram showing a single-threaded execution.](../Figures/Single_thread_diagram.png)
+
+*Figure: Diagram showing a single-threaded execution.*
