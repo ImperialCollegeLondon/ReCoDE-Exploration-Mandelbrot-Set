@@ -1,7 +1,7 @@
  Parallelism on the other hand, means running multiple tasks or processes at the same time on different CPU cores or machines. It is more a broader idea that includes any situation where tasks are done at the same time. In parallelism, the tasks can work independently and do not need to use the same memory. This can be done in different ways, for example using multi-core CPUs, distributed computing, or parallel processing systems. Parallelism works best for tasks that require a lot of computing power and can be split into independent smaller tasks, like numerical simulations, processing large amounts of data or rendering images. Most important aspect is that this enable us to run our work in HPC clusters.
 
  <p align="center">
-  <img src="/Figures/Paralell_diagram.png" alt="Paralell execution using MPI" width="60%">
+  <img src="/docs/Figures/Paralell_diagram.png" alt="Paralell execution using MPI" width="60%">
   <br>
   <em>Figure: Diagram showing a Paralell execution using MPI.</em>
 </p>
