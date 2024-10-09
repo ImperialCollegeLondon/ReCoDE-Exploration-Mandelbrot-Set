@@ -166,7 +166,7 @@ Once you run your code you will obtain the following output in PPM or VTK respec
 </p>
 
 <p align="center">
-  <img src="/../Figures/mandelbrot_gradient_double_spiral.png" alt="Double spiral region in PPM format" width="50%">
+  <img src="/docs/Figures/mandelbrot_gradient_double_spiral.png" alt="Double spiral region in PPM format" width="50%">
   <br>
   <em>Figure: Double spiral region in PPM format.</em>
 </p>
