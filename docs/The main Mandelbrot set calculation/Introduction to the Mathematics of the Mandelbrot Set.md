@@ -3,10 +3,6 @@
 The Mandelbrot set ([Mandelbrot1980](#mandelbrot1980)) was discovered by Benoît B. Mandelbrot in the late 1970s and is considered a revolutionary development in mathematics due to its intricate and infinitely complex structure. This set, visualized using complex numbers, exhibits self-similarity and fractal boundaries. The visualization of the Mandelbrot set using computer graphics sparked widespread fascination, showcasing the power of computers to render stunning, detailed images ([ScientificAmerican1985](#scientific-american-1985)). This intersection of mathematics and digital art played an important role in popularizing fractals and advancing computer graphics technology ([Barnsley1988Science](#barnsley-1988-science)). We will present the necessary mathematics to understand the set next.
 
 
-
-
-
-
 ![Figure 2: Scientific American cover August 1985.](../Figures/cover-scaled.jpg)
 
 *Figure 2: Scientific American cover August 1985.*
@@ -26,13 +22,10 @@ Complex numbers can be represented in Cartesian (real and imaginary parts) and p
 
 
 
+![Figure 3: Geometric representation of the complex number \( z = x + yi \) in the complex plane (source: Wikipedia).](../Figures/Argandgaussplane.png)
 
+*Figure 3: Geometric representation of the complex number \( z = x + yi \) in the complex plane (source: Wikipedia).*
 
-<p align="center">
-  <img src="docs/Figures/Argandgaussplane.png" alt="Geometric representation of the complex number \( z = x + yi \) in the complex plane" width="30%">
-  <br>
-  <em>Figure 3: Geometric representation of the complex number \( z = x + yi \) in the complex plane (source: Wikipedia).</em>
-</p>
 
 ## The Mandelbrot Iteration (the output)
 
