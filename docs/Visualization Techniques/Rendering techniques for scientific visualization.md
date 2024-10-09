@@ -13,7 +13,7 @@ The graphical user interface (GUI) of ParaView is designed to facilitate visuali
 
 To obtain the following figure, select `Surface with edges` in the toolbar. We have applied here a colormap (coming next).
 <p align="center">
-  <img src="/Figures/Paraview_Graphical_User_Interface.png" alt="ParaView GUI" width="100%">
+  <img src="/docs/Figures/Paraview_Graphical_User_Interface.png" alt="ParaView GUI" width="100%">
   <br>
   <em>Figure: ParaView GUI.</em>
 </p>
@@ -25,7 +25,7 @@ A very important step. For certain analysis, like rendering only the outer surfa
    - Apply the filter by clicking the **Apply** button in the **Properties** panel.
 
 <p align="center">
-  <img src="/Figures/Extract_surface.png" alt="Extract surface option in ParaView" width="60%">
+  <img src="/docs/Figures/Extract_surface.png" alt="Extract surface option in ParaView" width="60%">
   <br>
   <em>Figure: Extract surface option in ParaView.</em>
 </p>
@@ -35,7 +35,7 @@ A very important step. For certain analysis, like rendering only the outer surfa
 In the colormap editor, to open the color options select the `Choose prest` (option number 6 going downwards).
 
 <p align="center">
-  <img src="/Figures/color_options.png" alt="Colormap options" width="30%">
+  <img src="/docs/Figures/color_options.png" alt="Colormap options" width="30%">
   <br>
   <em>Figure: Colormap options.</em>
 </p>
@@ -43,7 +43,7 @@ In the colormap editor, to open the color options select the `Choose prest` (opt
 You will be able to choose the most adequate colormap as shown below.
 
 <p align="center">
-  <img src="/Figures/color_palete.png" alt="Colormap palette" width="30%">
+  <img src="/docs/Figures/color_palete.png" alt="Colormap palette" width="30%">
   <br>
   <em>Figure: Colormap palette.</em>
 </p>
@@ -53,7 +53,7 @@ An important option is the `Rescale to custom range` (option number 2 going down
 In our case, eventhough the iterations go beyond 50, we chose this limit as it shows better the nuances in the locations near the bulb edges.
 
 <p align="center">
-  <img src="/Figures/Range_of_colors.png" alt="Rescale to custom range" width="30%">
+  <img src="/docs/Figures/Range_of_colors.png" alt="Rescale to custom range" width="30%">
   <br>
   <em>Figure: Rescale to custom range.</em>
 </p>
@@ -63,7 +63,7 @@ In our case, eventhough the iterations go beyond 50, we chose this limit as it s
 ParaView offers the option to save a screenshot in very good resolution. To do this go to `File > Save Screenshot`. Once you click you will see the following window.
 
 <p align="center">
-  <img src="/Figures/Export_image.png" alt="Save screenshot options" width="30%">
+  <img src="/docs/Figures/Export_image.png" alt="Save screenshot options" width="30%">
   <br>
   <em>Figure: Save screenshot options.</em>
 </p>
@@ -76,7 +76,7 @@ The following figure was generated with the following configuration that you can
 
 
 <p align="center">
-  <img src="/Figures/main_settings_rendering.png" alt="Settings used after extracting the surface" width="30%">
+  <img src="/docs/Figures/main_settings_rendering.png" alt="Settings used after extracting the surface" width="30%">
   <br>
   <em>Figure: Settings used after extracting the surface.</em>
 </p>
@@ -85,7 +85,7 @@ The following figure was generated with the following configuration that you can
 We are using a slight level of transparency and this enable us to see inside the black region. Note that we see in full display the finer details of the set. 
 
 <p align="center">
-  <img src="/Figures/test_3D_main.png" alt="Mandelbrot set in ParaView" width="100%">
+  <img src="/docs/Figures/test_3D_main.png" alt="Mandelbrot set in ParaView" width="100%">
   <br>
   <em>Figure: Mandelbrot set in ParaView.</em>
 </p>
@@ -93,7 +93,7 @@ We are using a slight level of transparency and this enable us to see inside the
 
 Another feature is the level of specular used. Due to the high resolution is not visible however in the following figure at a lower resolution you can see the "brightness".
 <p align="center">
-  <img src="/Figures/showing_specular.png" alt="Specular level" width="80%">
+  <img src="/docs/Figures/showing_specular.png" alt="Specular level" width="80%">
   <br>
   <em>Figure: A higher specular level.</em>
 </p>
@@ -101,7 +101,7 @@ Another feature is the level of specular used. Due to the high resolution is not
 The Smooth filter in ParaView is used to smooth the surface of a mesh or geometry. This option reducing sharp edges, noise, or roughness in the data. It is particular useful in data set with lower resolution. The following figure was generate with the following configuration:
 
 <p align="center">
-  <img src="/Figures/smooth_settings.png" alt="Settings used inside the smooth filter" width="30%">
+  <img src="/docs/Figures/smooth_settings.png" alt="Settings used inside the smooth filter" width="30%">
   <br>
   <em>Figure: Settings used inside the smooth filter.</em>
 </p>
@@ -109,7 +109,7 @@ The Smooth filter in ParaView is used to smooth the surface of a mesh or geometr
 Note the use of transparency (opacity option) and that the finer details are now a bit blurry.
 
 <p align="center">
-  <img src="/Figures/test_3D_v12_specular.png" alt="Mandelbrot set in ParaView  where the smooth filter was applied" width="100%">
+  <img src="/docs/Figures/test_3D_v12_specular.png" alt="Mandelbrot set in ParaView  where the smooth filter was applied" width="100%">
   <br>
   <em>Figure: Mandelbrot set in ParaView where the smooth filter was applied.</em>
 </p>
