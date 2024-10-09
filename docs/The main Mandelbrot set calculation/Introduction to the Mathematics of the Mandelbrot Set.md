@@ -5,7 +5,7 @@ The Mandelbrot set ([Mandelbrot1980](#mandelbrot1980)) was discovered by Benoît
 
 
 <p align="center">
-  <img src="/docs/Figures/cover-scaled.jpg" alt="Figure 2: Scientific American cover August 1985" width="30%">
+  <img src="../Figures/cover-scaled.jpg" alt="Figure 2: Scientific American cover August 1985" width="30%">
   <br>
   <em>Figure 2: Scientific American cover August 1985.</em>
 </p>
