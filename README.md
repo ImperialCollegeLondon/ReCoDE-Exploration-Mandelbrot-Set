@@ -11,7 +11,7 @@ The Mandelbrot set ([Mandelbrot1980](#mandelbrot1980)) is a well-known mathemati
 
 The goal of this ReCoDe (Research and Code Development) project is to help students immerse themselves in computational methods by using the Mandelbrot set as a practical example. This approach aims to make abstract concepts more accesible and engaging. The skills acquired from this project are especially helpful for those involved in high-performance computing (HPC), grid computing, and rapid computation, allowing students to apply their knowledge to fields that require handling complex data,efficient computation and scientific visualization. `C++` is chosen for this project because it is widely used in legacy codes that PhD students need to master and adapt quickly. 
 
-![Main goal of the ReCoDe project: to achieve a high fidelity fractal image in an efficient way.](/Figures/ReCoDe_mandel_brot.png)
+![Main goal of the ReCoDe project: to achieve a high fidelity fractal image in an efficient way.](/docs/Figures/ReCoDe_mandel_brot.png)
 *Figure 1: The main goal of the ReCoDe project is to learn how to generate a high-quality fractal image and reach higher fidelity without increasing the computation time.*
 
 
