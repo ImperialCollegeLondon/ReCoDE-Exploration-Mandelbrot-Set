@@ -63,6 +63,7 @@ plugins:
 
 # Set settings for markdown extensions
 markdown_extensions:
+  - footnotes
   - meta
   - mdx_math:
       enable_dollar_delimiter: True

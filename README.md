@@ -6,12 +6,12 @@
 
 ## Description
 
-The Mandelbrot set ([Mandelbrot1980](#mandelbrot1980)) is a well-known mathematical set, celebrated for its intricate, infinitely complex patterns that repeat at every scale. Since its popularization in the 1980s and 1990s, it has introduced new perspectives in mathematical visualization and complexity, with close links to other fields such as turbulence and computer graphics among others ([Barnsley1988](#barnsley1988)). This project, *"A C++ Exploration of the Mandelbrot Set and the Use of Scientific Visualization Tools"*, uses the visuals of the set to introduce students to key concepts in scientific computing.
+The Mandelbrot set[^1] is a well-known mathematical set, celebrated for its intricate, infinitely complex patterns that repeat at every scale. Since its popularization in the 1980s and 1990s, it has introduced new perspectives in mathematical visualization and complexity, with close links to other fields such as turbulence and computer graphics among others[^2]. This project, *"A C++ Exploration of the Mandelbrot Set and the Use of Scientific Visualization Tools"*, uses the visuals of the set to introduce students to key concepts in scientific computing.
 
 
 The goal of this ReCoDe (Research and Code Development) project is to help students immerse themselves in computational methods by using the Mandelbrot set as a practical example. This approach aims to make abstract concepts more accesible and engaging. The skills acquired from this project are especially helpful for those involved in high-performance computing (HPC), grid computing, and rapid computation, allowing students to apply their knowledge to fields that require handling complex data,efficient computation and scientific visualization. `C++` is chosen for this project because it is widely used in legacy codes that PhD students need to master and adapt quickly. 
 
-![Main goal of the ReCoDe project: to achieve a high fidelity fractal image in an efficient way.](/docs/Figures/ReCoDe_mandel_brot.png)
+![Main goal of the ReCoDe project: to achieve a high fidelity fractal image in an efficient way.](./docs/Figures/ReCoDe_mandel_brot.png)
 *Figure 1: The main goal of the ReCoDe project is to learn how to generate a high-quality fractal image and reach higher fidelity without increasing the computation time.*
 
 
@@ -60,8 +60,8 @@ To get started, it is best to first understand how the Mandelbrot set is defined
 
 **References**
 
-1. <a id="mandelbrot1980"></a>Mandelbrot, B. B. (1980). *The Fractal Geometry of Nature*. New York: W.H. Freeman and Co.
-2. <a id="barnsley1988"></a>Barnsley, M. F. (1988). *Fractals Everywhere*. Academic Press, Inc.
+[^1]: Mandelbrot, B. B. (1980). *The Fractal Geometry of Nature*. New York: W.H. Freeman and Co.
+[^2]: Barnsley, M. F. (1988). *Fractals Everywhere*. Academic Press, Inc.
 
 ## License
 
