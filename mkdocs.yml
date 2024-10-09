@@ -1,8 +1,9 @@
-site_name: ReCoDE A C++ Exploration of the Mandelbrot Set and the Use of Scientific Visualization Tools"
+site_name: ReCoDE A C++ Exploration of the Mandelbrot Set and the Use of Scientific Visualization Tools
 repo_url: https://imperialcollegelondon.github.io/CPP_Exploration_Mandelbrot_Set/
 
 ## Please change the above name and link to point to your exemplar
 ## Please do not change the theme or most other options below 
+
 
 edit_uri: tree/main/docs/
 
@@ -34,6 +35,23 @@ theme:
     - content.code.annotate
 extra:
   homepage: https://imperialcollegelondon.github.io/ReCoDE-home/
+
+nav:
+  - Home: index.md
+  - The Single-Threaded Mandelbrot set calculation:
+      - Introduction to the Mathematics of the Mandelbrot Set: The main Mandelbrot set calculation/Introduction to the Mathematics of the Mandelbrot Set.md
+      - Initial setup for Windows and Ubuntu users: The main Mandelbrot set calculation/Initial setup for Windows and Ubuntu users.md
+      - Mandelbrot Set Calculation - Single-threaded Version: The main Mandelbrot set calculation/Main Code.md
+  - Multithreading and Parallelization Techniques:
+      - What happens when the code is executed in the single-threaded form?: Multithreading Techniques/Concepts.md
+      - Multithreaded version: Multithreading Techniques/Multithreaded version.md   
+      - Parallel version using MPI: Multithreading Techniques/Parallel version using MPI.md
+  - Visualization Techniques:
+      - The ParaView format: Visualization Techniques/The ParaView format.md        
+      - 3D Data creation (extrusion): Visualization Techniques/3D Data creation (extrusion).md
+      - Rendering techniques for scientific visualization: Visualization Techniques/Rendering techniques for scientific visualization.md    
+
+
 
 # Add here all the plugins you want to use.
 # Don't forget to add them in requirements.txt as well.

@@ -1,116 +1,72 @@
 <!-- Your Project title, make it sound catchy! -->
 
-# Project title
+# A C++ Exploration of the Mandelbrot Set and the Use of Scientific Visualization Tools
 
 <!-- Provide a short description to your project -->
 
 ## Description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae pulvinar
-mauris. Praesent sollicitudin rutrum mauris sed congue. Donec vel orci elit.
-Phasellus luctus sodales elementum. Donec lacinia semper lorem, volutpat
-molestie arcu bibendum mollis. Nulla nec massa vitae sapien varius vulputate
-vel vitae ex. Curabitur convallis iaculis elit at faucibus. Sed eget facilisis
-orci, ut consequat neque.
+The Mandelbrot set ([Mandelbrot1980](#mandelbrot1980)) is a well-known mathematical set, celebrated for its intricate, infinitely complex patterns that repeat at every scale. Since its popularization in the 1980s and 1990s, it has introduced new perspectives in mathematical visualization and complexity, with close links to other fields such as turbulence and computer graphics among others ([Barnsley1988](#barnsley1988)). This project, *"A C++ Exploration of the Mandelbrot Set and the Use of Scientific Visualization Tools"*, uses the visuals of the set to introduce students to key concepts in scientific computing.
 
-<!-- What should the students going through your exemplar learn -->
+
+The goal of this ReCoDe (Research and Code Development) project is to help students immerse themselves in computational methods by using the Mandelbrot set as a practical example. This approach aims to make abstract concepts more accesible and engaging. The skills acquired from this project are especially helpful for those involved in high-performance computing (HPC), grid computing, and rapid computation, allowing students to apply their knowledge to fields that require handling complex data,efficient computation and scientific visualization. `C++` is chosen for this project because it is widely used in legacy codes that PhD students need to master and adapt quickly. 
+
+![Main goal of the ReCoDe project: to achieve a high fidelity fractal image in an efficient way.](/Figures/ReCoDe_mandel_brot.png)
+*Figure 1: The main goal of the ReCoDe project is to learn how to generate a high-quality fractal image and reach higher fidelity without increasing the computation time.*
+
+
+## Project Overview
+This project is divided into three sections, which will cover the following points:
+
+### Basic Mandelbrot Set Calculation
+
+In this first section of the ReCoDe project, you will learn how to generate and perform operations on a 2D grid, transfer results directly to a high-quality picture format, and visualize them using tools like VTK. We will explore how to run iterations and inner loops efficiently using the STL (Standard Template Library) library. Additionally, you will receive guidance on measuring computation time with the `chrono` function and using a Makefile to streamline code compilation.
+
+### Optimization Techniques
+
+In this subsection, we will focus on improving the performance of the code from the first part by reducing its runtime through various multithreading paradigms and parallelization techniques all within the STL library. Specifically, we will explore using `std::thread`modifying the code to optimize its performance with these tools. We will demonstrate how these changes can reduce runtime by one-third. Additionally, you will learn how to parallelize the code for distributed-memory computer architectures, such as those used in HPC systems like CX1 and Archer2.
+
+### Visualization Techniques
+In this last subsection, we will focus on getting the output file in the VTK format so that we can postprocess it in ParaView and access its features. We will conclude with best practices in scientific vizualization to get a profesional rendered image.
+
 
 ## Learning Outcomes
 
-- Skill 1
-- Skill 2
-- Skill 3
-
-<!-- How long should they spend reading and practising using your Code.
-Provide your best estimate -->
+- Efficiently manipulate large 2D arrays (representing pixels of an image) using `std::vector` to store and process image data.
+- Use complex numbers for mathematical computations.
+- Implement nested loops to traverse and manipulate two-dimensional data structures.
+- Use of STL headers such as `<iostream>`, `<complex>`, `<fstream>`, `<vector>`, and `<chrono>`.
+- Learn the `std::thread` multithreading paradigm.
+- Synchronization and Communication in MPI.
+- Output `C++` computational results directly into PPM (Portable Pixmap) and VTK (Visualization Toolkit) format files for image visualization. This includes extrusion to generate a 3D file.
+- Important features of scientific visualization in Paraview.
+- Best practices.
 
 | Task       | Time    |
 | ---------- | ------- |
 | Reading    | 3 hours |
-| Practising | 3 hours |
+| Practising | 7 hours |
+
 
 ## Requirements
+This project does not require prior knowledge of `C++` as there is an effot to explain each segment in detail to ensure the main ideas are clear. It is designed for readers familiar with Fortran, Matlab, or Python to learn the specifics of `C++`. The main goal is for readers to take the functions used here and apply them to their own problems.
 
-<!--
-If your exemplar requires students to have a background knowledge of something
-especially this is the place to mention that.
-
-List any resources you would recommend to get the students started.
-
-If there is an existing exemplar in the ReCoDE repositories link to that.
--->
-
-### Academic
-
-<!-- List the system requirements and how to obtain them, that can be as simple
-as adding a hyperlink to as detailed as writting step-by-step instructions.
-How detailed the instructions should be will vary on a case-by-case basis.
-
-Here are some examples:
-
-- 50 GB of disk space to hold Dataset X
-- Anaconda
-- Python 3.11 or newer
-- Access to the HPC
-- PETSc v3.16
-- gfortran compiler
-- Paraview
--->
-
-### System
-
-<!-- Instructions on how the student should start going through the exemplar.
-
-Structure this section as you see fit but try to be clear, concise and accurate
-when writing your instructions.
-
-For example:
-Start by watching the introduction video,
-then study Jupyter notebooks 1-3 in the `intro` folder
-and attempt to complete exercise 1a and 1b.
-
-Once done, start going through through the PDF in the `main` folder.
-By the end of it you should be able to solve exercises 2 to 4.
-
-A final exercise can be found in the `final` folder.
-
-Solutions to the above can be found in `solutions`.
--->
+## System
+Installation instructions will be provided as needed. Except for a few cases, the project mainly uses features from the Standard Library. Some of the figures in the visualization section have been achieved using a 64BG RAM working station: however the reader can apply the same techniques on a much lower resolution image.
 
 ## Getting Started
+To get started, it is best to first understand how the Mandelbrot set is defined (there is a brief introduction included) and how it is implemented in the code, then move on from there.
 
-<!-- An overview of the files and folder in the exemplar.
-Not all files and directories need to be listed, just the important
-sections of your project, like the learning material, the code, the tests, etc.
 
-A good starting point is using the command `tree` in a terminal(Unix),
-copying its output and then removing the unimportant parts.
+**References**
 
-You can use ellipsis (...) to suggest that there are more files or folders
-in a tree node.
-
--->
-
-## Project Structure
-
-```log
-.
-├── examples
-│   ├── ex1
-│   └── ex2
-├── src
-|   ├── file1.py
-|   ├── file2.cpp
-|   ├── ...
-│   └── data
-├── app
-├── docs
-├── main
-└── test
-```
-
-<!-- Change this to your License. Make sure you have added the file on GitHub -->
+1. <a id="mandelbrot1980"></a>Mandelbrot, B. B. (1980). *The Fractal Geometry of Nature*. New York: W.H. Freeman and Co.
+2. <a id="barnsley1988"></a>Barnsley, M. F. (1988). *Fractals Everywhere*. Academic Press, Inc.
 
 ## License
 
 This project is licensed under the [BSD-3-Clause license](LICENSE.md)
+
+
+
+
