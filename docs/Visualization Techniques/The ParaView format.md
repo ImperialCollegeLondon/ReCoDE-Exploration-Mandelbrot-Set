@@ -160,30 +160,24 @@ constexpr double Y_MAX = 0.0;     // Maximum y-axis value for double spiral
 Once you run your code you will obtain the following output in PPM or VTK respectiveley.
 
 
-![Figure: Seahorse valley in PPM format..](../Figures/mandelbrot_gradient_psychedelic.png)
+![Figure: Seahorse valley in PPM format.](../Figures/mandelbrot_gradient_psychedelic.png)
 
 *Figure: Seahorse valley in PPM format.*
 
-<p align="center">
-  <img src="/docs/Figures/mandelbrot_gradient_psychedelic.png" alt="Seahorse valley in PPM format" width="50%">
-  <br>
-  <em>Figure: Seahorse valley in PPM format.</em>
-</p>
 
-<p align="center">
-  <img src="/docs/Figures/mandelbrot_gradient_double_spiral.png" alt="Double spiral region in PPM format" width="50%">
-  <br>
-  <em>Figure: Double spiral region in PPM format.</em>
-</p>
+![Figure: Double spiral region in PPM format.](../Figures/mandelbrot_gradient_double_spiral.png)
 
-<p align="center">
-  <img src="/docs/Figures/Islands_region_VTK_more_blue.png" alt="Island region in VTK format-version 1" width="70%">
-  <br>
-  <em>Figure: Island region in VTK format-version 1.</em>
-</p>
+*Figure: Double spiral region in PPM format.*
 
-<p align="center">
-  <img src="/docs/Figures/Islands_region_VTK_more_red.png" alt="Island region in VTK format-version 1" width="70%">
-  <br>
-  <em>Figure: Island region in VTK format-version 2.</em>
-</p>
+
+![Figure: Double spiral region in PPM format.](../Figures/Islands_region_VTK_more_blue.png)
+
+*Figure: Island region in VTK format-version 1.*
+
+
+
+![Figure: Island region in VTK format-version 2.](../Figures/Islands_region_VTK_more_red.png)
+
+*Figure: Island region in VTK format-version 2.*
+
+
