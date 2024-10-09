@@ -28,7 +28,7 @@ Complex numbers can be represented in Cartesian (real and imaginary parts) and p
 
 
 <p align="center">
-  <img src="/docs/Figures/Argandgaussplane.png" alt="Geometric representation of the complex number \( z = x + yi \) in the complex plane" width="30%">
+  <img src="docs/Figures/Argandgaussplane.png" alt="Geometric representation of the complex number \( z = x + yi \) in the complex plane" width="30%">
   <br>
   <em>Figure 3: Geometric representation of the complex number \( z = x + yi \) in the complex plane (source: Wikipedia).</em>
 </p>
