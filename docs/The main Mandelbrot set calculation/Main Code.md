@@ -623,18 +623,18 @@ Mandelbrot set with colormap: mandelbrot_gradient.ppm
 
 The following image corresponds to the output file.
 
-<p align="center">
-  <img src="/docs/Figures/mandelbrot_gradient.png" alt="Mandelbrot set output" width="70%">
-  <br>
-  <em>Figure: Mandelbrot set output.</em>
-</p>
+![Figure: Mandelbrot set output.](../Figures/mandelbrot_gradient.png)
+
+*Figure: Mandelbrot set output.*
+
+
+
 
 Below is a zoomed-in section of the image using ParaView which we will cover in the following section.
 
 
 
-<p align="center">
-  <img src="/docs/Figures/Mandel_brotset_VTK_format_1.png" alt="Mandel_brotset_VTK_format_1.png" width="90%">
-  <br>
-  <em>Figure: Zommed-in section of the Mandelbrot set using ParaView.</em>
-</p>
+![Figure: Zommed-in section of the Mandelbrot set using ParaView.](../Figures/Mandel_brotset_VTK_format_1.png)
+
+*Figure: Zommed-in section of the Mandelbrot set using ParaView.*
+
