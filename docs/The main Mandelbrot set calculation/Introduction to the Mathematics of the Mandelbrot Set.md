@@ -11,6 +11,11 @@ The Mandelbrot set ([Mandelbrot1980](#mandelbrot1980)) was discovered by Benoît
 </p>
 
 
+![Figure 2: Scientific American cover August 1985.](../Figures/cover-scaled.jpg)
+
+*Figure 2: Scientific American cover August 1985.*
+
+
 ## Complex Numbers (the input)
 
 A complex number is expressed in the form \( z = x + yi \), where:
