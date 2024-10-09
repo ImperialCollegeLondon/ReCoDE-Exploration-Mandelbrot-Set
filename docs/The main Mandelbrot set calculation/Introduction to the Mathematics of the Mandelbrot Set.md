@@ -82,11 +82,7 @@ It appears that \( z_n \) converges to the same value and does not escape to inf
 *Figure 4: Bounded region of the Mandelbrot set in complex plane coloured in black (source: Wikipedia).*
 
 
-<p align="center">
-  <img src="/docs/Figures/bounded_mandelbrot.png" alt="Bounded region of the Mandelbrot set in complex plane coloured in black" width="50%">
-  <br>
-  <em>Figure 4: Bounded region of the Mandelbrot set in complex plane coloured in black (source: Wikipedia).</em>
-</p>
+
 
 
 ### Example 2: A Number that does not iterate a lot (does not belong to the Mandelbrot set and has a color range)
@@ -108,11 +104,7 @@ Here, \( |z_2| = 2 \), and at \( n = 3 \), \( |z_3| = 5 \), which is already gre
 
 *Figure 5: Unbounded region of the set in the complex plane, with color shading representing the iteration count (source: Wikipedia).*
 
-<p align="center">
-  <img src="/docs/Figures/Unbounded_mandelbrot_set.png" alt="Unbounded region of the set in the complex plane, with color shading representing the iteration count" width="60%">
-  <br>
-  <em>Figure 5: Unbounded region of the set in the complex plane, with color shading representing the iteration count (source: Wikipedia).</em>
-</p>
+
 
 ## Useful Terms and Concepts
 
