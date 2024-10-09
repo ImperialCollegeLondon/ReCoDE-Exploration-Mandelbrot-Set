@@ -1,5 +1,5 @@
 
-In this section, we will show how to output our image in `.vtk` format, which will allow us to access powerful options for scientific visualization. For this purpose, we will use our multithreaded version. Due to the modularity of `C++`, the only function we need to modify is `saveToPPM`, which will be replaced by `save_vtk`.
+In this section, we will show how to output our image in `.vtk` format, which will allow us to access powerful options for scientific visualization. For this purpose, we will use our multithreaded version. Due to the modularity of `C++`, the only function we need to modify is `save_ppm`, which will be replaced by `save_vtk`.
 
 An important reference that I recommend, in addition to the useful information available in the Kitware community forums, is the works by ([William](#William2006)), the founders of Kitware, where you can learn more about the graphics pipeline.
 
@@ -42,7 +42,7 @@ void save_vtk(const std::vector<int>& iterations, const std::string& filename) {
 
 
 **Function description, input parameters and file opening/closing:**  
-What this function does is to transfer the Mandelbrot set data (`iterations` vector) to a VTK file. It has exactly the same inputs as `saveToPPM`.
+What this function does is to transfer the Mandelbrot set data (`iterations` vector) to a VTK file. It has exactly the same inputs as `save_ppm`.
 
 As with the previous PPM format, we need to open the file with `std::ofstream`. This is what enables the program to export the data from memory to a usable file format. Without this, the program would be unable to save or share the results. `std::ofstream ofs(filename);` creates an output file stream (`ofs`) and opens the file named `filename` for writing. Once the function has completed its tasks, it is good practice to include `ofs.close();` to close the file after all the data has been written.
 
