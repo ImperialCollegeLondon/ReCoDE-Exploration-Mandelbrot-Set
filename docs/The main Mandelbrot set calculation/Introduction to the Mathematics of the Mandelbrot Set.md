@@ -76,6 +76,12 @@ z_3 = (-0.5 + 0.5i)^2 + (-0.5 + 0.5i)
 
 It appears that \( z_n \) converges to the same value and does not escape to infinity. For \( c = -0.5 + 0.5i \), the magnitude \( |z_n| \) does not exceed 2 in these iterations, so \( c \) is likely to be in the Mandelbrot set. In other words, these points do not escape to infinity, and their iterations remain bounded. These are typically colored by a single color.
 
+
+![Figure 4: Bounded region of the Mandelbrot set in complex plane coloured in black (source: Wikipedia).](../Figures/bounded_mandelbrot.png)
+
+*Figure 4: Bounded region of the Mandelbrot set in complex plane coloured in black (source: Wikipedia).*
+
+
 <p align="center">
   <img src="/docs/Figures/bounded_mandelbrot.png" alt="Bounded region of the Mandelbrot set in complex plane coloured in black" width="50%">
   <br>
@@ -95,6 +101,12 @@ We will compute the iterations starting from \( z_0 = 0 \):
 - \( z_3 = z_2^2 + c = 2^2 + 1 = 5 \)
 
 Here, \( |z_2| = 2 \), and at \( n = 3 \), \( |z_3| = 5 \), which is already greater than 2. The sequence diverges quickly. Therefore, \( c = 1 \) does not belong to the Mandelbrot set. These points are colored based on how quickly they escape to infinity. The color often represents the number of iterations it takes for \( |z_n| \) to exceed a certain threshold, which is set to 2.
+
+
+
+![Figure 5: Unbounded region of the set in the complex plane, with color shading representing the iteration count (source: Wikipedia).](../Figures/Unbounded_mandelbrot_set.png)
+
+*Figure 5: Unbounded region of the set in the complex plane, with color shading representing the iteration count (source: Wikipedia).*
 
 <p align="center">
   <img src="/docs/Figures/Unbounded_mandelbrot_set.png" alt="Unbounded region of the set in the complex plane, with color shading representing the iteration count" width="60%">
