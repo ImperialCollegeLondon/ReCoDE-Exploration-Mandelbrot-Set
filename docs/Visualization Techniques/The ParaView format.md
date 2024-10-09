@@ -178,7 +178,7 @@ Once you run your code you will obtain the following output in PPM or VTK respec
 </p>
 
 <p align="center">
-  <img src="/Figures/Islands_region_VTK_more_red.png" alt="Island region in VTK format-version 1" width="70%">
+  <img src="/docs/Figures/Islands_region_VTK_more_red.png" alt="Island region in VTK format-version 1" width="70%">
   <br>
   <em>Figure: Island region in VTK format-version 2.</em>
 </p>
