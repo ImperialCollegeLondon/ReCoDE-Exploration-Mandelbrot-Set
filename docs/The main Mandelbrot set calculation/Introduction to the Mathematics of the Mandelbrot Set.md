@@ -124,7 +124,7 @@ When visualizing the Mandelbrot set, two concepts are critical: *iteration count
 
 Another important concept is whether a sequence is *bounded* or *unbounded*. A bounded sequence remains within a certain distance from the origin, indicating that \( c \) is part of the Mandelbrot set. An unbounded sequence escapes to infinity, meaning \( c \) is not part of the set. The rate of escape provides insight into the set’s intricate details.
 
-The Mandelbrot set also exemplifies *fractal geometry*. One defining feature of fractals is *self-similarity*, where patterns repeat at different scales. Zooming in on the Mandelbrot set reveals increasingly complex structures. Additionally, the set has a *fractal dimension*, a non-integer value that reflects its infinitely detailed nature.
+
 
 
 
