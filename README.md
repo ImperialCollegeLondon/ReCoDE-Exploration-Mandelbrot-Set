@@ -36,7 +36,6 @@ In this last subsection, we will focus on getting the output file in the VTK for
 - Use complex numbers for mathematical computations.
 - Implement nested loops to traverse and manipulate two-dimensional data structures.
 - Use of STL headers such as `<iostream>`, `<complex>`, `<fstream>`, `<vector>`, and `<chrono>`.
-- Learn the `std::thread` multithreading paradigm.
 - Synchronization and Communication in MPI.
 - Output `C++` computational results directly into PPM (Portable Pixmap) and VTK (Visualization Toolkit) format files for image visualization. This includes extrusion to generate a 3D file.
 - Important features of scientific visualization in Paraview.
