@@ -159,6 +159,11 @@ constexpr double Y_MAX = 0.0;     // Maximum y-axis value for double spiral
 
 Once you run your code you will obtain the following output in PPM or VTK respectiveley.
 
+
+![Figure: Seahorse valley in PPM format..](/../Figures/mandelbrot_gradient_psychedelic.png)
+
+*Figure: Seahorse valley in PPM format.*
+
 <p align="center">
   <img src="/docs/Figures/mandelbrot_gradient_psychedelic.png" alt="Seahorse valley in PPM format" width="50%">
   <br>
