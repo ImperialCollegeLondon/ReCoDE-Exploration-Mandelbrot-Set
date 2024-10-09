@@ -75,28 +75,32 @@ In this section, we are going to use now a high resolution 3D file obtained with
 The following figure was generated with the following configuration that you can apply to your 3D file and explore further:
 
 
-<p align="center">
-  <img src="/docs/Figures/main_settings_rendering.png" alt="Settings used after extracting the surface" width="30%">
-  <br>
-  <em>Figure: Settings used after extracting the surface.</em>
-</p>
+![Figure: Settings used after extracting the surface.](../Figures/main_settings_rendering.png)
+
+*Figure: Settings used after extracting the surface.*
+
+
 
 
 We are using a slight level of transparency and this enable us to see inside the black region. Note that we see in full display the finer details of the set. 
 
-<p align="center">
-  <img src="/docs/Figures/test_3D_main.png" alt="Mandelbrot set in ParaView" width="100%">
-  <br>
-  <em>Figure: Mandelbrot set in ParaView.</em>
-</p>
+
+
+![Figure: Mandelbrot set in ParaView.](../Figures/test_3D_main.png)
+
+*Figure: Mandelbrot set in ParaView.*
+
+
 
 
 Another feature is the level of specular used. Due to the high resolution is not visible however in the following figure at a lower resolution you can see the "brightness".
-<p align="center">
-  <img src="/docs/Figures/showing_specular.png" alt="Specular level" width="80%">
-  <br>
-  <em>Figure: A higher specular level.</em>
-</p>
+
+
+![Figure: A higher specular level.](../Figures/showing_specular.png)
+
+*Figure: A higher specular level.*
+
+
 
 The Smooth filter in ParaView is used to smooth the surface of a mesh or geometry. This option reducing sharp edges, noise, or roughness in the data. It is particular useful in data set with lower resolution. The following figure was generate with the following configuration:
 
@@ -104,11 +108,7 @@ The Smooth filter in ParaView is used to smooth the surface of a mesh or geometr
 
 *Figure: Settings used inside the smooth filter.*
 
-<p align="center">
-  <img src="/docs/Figures/smooth_settings.png" alt="Settings used inside the smooth filter" width="30%">
-  <br>
-  <em>Figure: Settings used inside the smooth filter.</em>
-</p>
+
 
 Note the use of transparency (opacity option) and that the finer details are now a bit blurry.
 
