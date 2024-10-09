@@ -100,6 +100,10 @@ Another feature is the level of specular used. Due to the high resolution is not
 
 The Smooth filter in ParaView is used to smooth the surface of a mesh or geometry. This option reducing sharp edges, noise, or roughness in the data. It is particular useful in data set with lower resolution. The following figure was generate with the following configuration:
 
+![Figure: Settings used inside the smooth filter.](../Figures/smooth_settings.png)
+
+*Figure: Settings used inside the smooth filter.*
+
 <p align="center">
   <img src="/docs/Figures/smooth_settings.png" alt="Settings used inside the smooth filter" width="30%">
   <br>
@@ -108,11 +112,12 @@ The Smooth filter in ParaView is used to smooth the surface of a mesh or geometr
 
 Note the use of transparency (opacity option) and that the finer details are now a bit blurry.
 
-<p align="center">
-  <img src="/docs/Figures/test_3D_v12_specular.png" alt="Mandelbrot set in ParaView  where the smooth filter was applied" width="100%">
-  <br>
-  <em>Figure: Mandelbrot set in ParaView where the smooth filter was applied.</em>
-</p>
+
+![Figure: Mandelbrot set in ParaView where the smooth filter was applied.](../Figures/test_3D_v12_specular.png)
+
+*Figure: Mandelbrot set in ParaView where the smooth filter was applied.*
+
+
 
 
 
