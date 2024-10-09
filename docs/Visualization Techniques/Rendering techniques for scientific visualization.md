@@ -12,11 +12,13 @@ The graphical user interface (GUI) of ParaView is designed to facilitate visuali
 3.  The Properties Panel is where users configure the settings and parameters for the selected dataset or filter. This is the place where you can tune the different parameters to obtain a nice visualization. We will use this in the rendering.
 
 To obtain the following figure, select `Surface with edges` in the toolbar. We have applied here a colormap (coming next).
-<p align="center">
-  <img src="/docs/Figures/Paraview_Graphical_User_Interface.png" alt="ParaView GUI" width="100%">
-  <br>
-  <em>Figure: ParaView GUI.</em>
-</p>
+
+![Figure: ParaView GUI.](../Figures/Paraview_Graphical_User_Interface.png)
+
+*Figure: ParaView GUI.*
+
+
+
 
 **Extract surface:**  
 A very important step. For certain analysis, like rendering only the outer surface is important. By extracting the surface we reduce the data size, making rendering faster and more efficient. 
@@ -24,49 +26,49 @@ A very important step. For certain analysis, like rendering only the outer surfa
    - Make sure the vtk file is selected in the pipeline browser. Go to `Filters > Alphabetical > Extract Surface` or search for `Extract Surface` in the filters toolbar.
    - Apply the filter by clicking the **Apply** button in the **Properties** panel.
 
-<p align="center">
-  <img src="/docs/Figures/Extract_surface.png" alt="Extract surface option in ParaView" width="60%">
-  <br>
-  <em>Figure: Extract surface option in ParaView.</em>
-</p>
+![Figure: Extract surface option in ParaView.](../Figures/Extract_surface.png)
+
+*Figure: Extract surface option in ParaView.*
+
+
 
 
 **Color settings:**
 In the colormap editor, to open the color options select the `Choose prest` (option number 6 going downwards).
 
-<p align="center">
-  <img src="/docs/Figures/color_options.png" alt="Colormap options" width="30%">
-  <br>
-  <em>Figure: Colormap options.</em>
-</p>
+
+![Figure: Colormap options.](../Figures/color_options.png)
+
+*Figure: Colormap options.*
+
 
 You will be able to choose the most adequate colormap as shown below.
 
-<p align="center">
-  <img src="/docs/Figures/color_palete.png" alt="Colormap palette" width="30%">
-  <br>
-  <em>Figure: Colormap palette.</em>
-</p>
+![Figure: Colormap palette.](../Figures/color_palete.png)
+
+*Figure: Colormap palette.*
+
+
 
 An important option is the `Rescale to custom range` (option number 2 going downwards). Particularly in visualizations with a vast range of values when you want to focus on small section you can select the values of range of values and the colormap will be adapted accordingly.
 
 In our case, eventhough the iterations go beyond 50, we chose this limit as it shows better the nuances in the locations near the bulb edges.
 
-<p align="center">
-  <img src="/docs/Figures/Range_of_colors.png" alt="Rescale to custom range" width="30%">
-  <br>
-  <em>Figure: Rescale to custom range.</em>
-</p>
+![Figure: Rescale to custom range.](../Figures/Range_of_colors.png)
+
+*Figure: Rescale to custom range.*
+
+
 
 
 **Export as a high quality figure:**
 ParaView offers the option to save a screenshot in very good resolution. To do this go to `File > Save Screenshot`. Once you click you will see the following window.
 
-<p align="center">
-  <img src="/docs/Figures/Export_image.png" alt="Save screenshot options" width="30%">
-  <br>
-  <em>Figure: Save screenshot options.</em>
-</p>
+![Figure: Save screenshot options.](../Figures/Export_image.png)
+
+*Figure: Save screenshot options.*
+
+
 
 You can increase the resolution however it is very easy to increase the size by doing so. 
 
