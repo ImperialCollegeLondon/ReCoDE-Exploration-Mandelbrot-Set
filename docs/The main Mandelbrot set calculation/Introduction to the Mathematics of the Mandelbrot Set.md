@@ -5,7 +5,7 @@ The Mandelbrot set ([Mandelbrot1980](#mandelbrot1980)) was discovered by Benoît
 
 
 <p align="center">
-  <img src="/Figures/cover-scaled.jpg" alt="Figure 2: Scientific American cover August 1985" width="30%">
+  <img src="/docs/Figures/cover-scaled.jpg" alt="Figure 2: Scientific American cover August 1985" width="30%">
   <br>
   <em>Figure 2: Scientific American cover August 1985.</em>
 </p>
@@ -28,7 +28,7 @@ Complex numbers can be represented in Cartesian (real and imaginary parts) and p
 
 
 <p align="center">
-  <img src="/Figures/Argandgaussplane.png" alt="Geometric representation of the complex number \( z = x + yi \) in the complex plane" width="30%">
+  <img src="/docs/Figures/Argandgaussplane.png" alt="Geometric representation of the complex number \( z = x + yi \) in the complex plane" width="30%">
   <br>
   <em>Figure 3: Geometric representation of the complex number \( z = x + yi \) in the complex plane (source: Wikipedia).</em>
 </p>
@@ -83,7 +83,7 @@ z_3 = (-0.5 + 0.5i)^2 + (-0.5 + 0.5i)
 It appears that \( z_n \) converges to the same value and does not escape to infinity. For \( c = -0.5 + 0.5i \), the magnitude \( |z_n| \) does not exceed 2 in these iterations, so \( c \) is likely to be in the Mandelbrot set. In other words, these points do not escape to infinity, and their iterations remain bounded. These are typically colored by a single color.
 
 <p align="center">
-  <img src="/Figures/bounded_mandelbrot.png" alt="Bounded region of the Mandelbrot set in complex plane coloured in black" width="50%">
+  <img src="/docs/Figures/bounded_mandelbrot.png" alt="Bounded region of the Mandelbrot set in complex plane coloured in black" width="50%">
   <br>
   <em>Figure 4: Bounded region of the Mandelbrot set in complex plane coloured in black (source: Wikipedia).</em>
 </p>
@@ -103,7 +103,7 @@ We will compute the iterations starting from \( z_0 = 0 \):
 Here, \( |z_2| = 2 \), and at \( n = 3 \), \( |z_3| = 5 \), which is already greater than 2. The sequence diverges quickly. Therefore, \( c = 1 \) does not belong to the Mandelbrot set. These points are colored based on how quickly they escape to infinity. The color often represents the number of iterations it takes for \( |z_n| \) to exceed a certain threshold, which is set to 2.
 
 <p align="center">
-  <img src="/Figures/Unbounded_mandelbrot_set.png" alt="Unbounded region of the set in the complex plane, with color shading representing the iteration count" width="60%">
+  <img src="/docs/Figures/Unbounded_mandelbrot_set.png" alt="Unbounded region of the set in the complex plane, with color shading representing the iteration count" width="60%">
   <br>
   <em>Figure 5: Unbounded region of the set in the complex plane, with color shading representing the iteration count (source: Wikipedia).</em>
 </p>
