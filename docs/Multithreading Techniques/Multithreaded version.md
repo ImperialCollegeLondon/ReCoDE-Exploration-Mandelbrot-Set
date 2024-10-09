@@ -3,9 +3,9 @@
 Multithreading  refers to the ability of a CPU (or a single core) to provide multiple threads of execution concurrently. Threads are the smallest parts of a program that can be managed by the operating system. In multithreading, multiple threads use the same memory but can run independently. This allows them to do different tasks or parts of a task at the same time which can make I/O-bound programs more efficient or help keep user interfaces responsive. This means they can do different jobs or parts of a job at the same time. Multithreading allows the main program to remain responsive while background tasks execute. In this context, *concurrency* is the ability of a system to manage multiple tasks at the same time, but not always at the exact same moment.
 
 
-![Figure 1: Figure: Diagram showing a Multithreaded execution..](../Figures/Multithreading_diagram.png)
+![Figure: Diagram showing a Multithreaded execution..](../Figures/Multithreading_diagram.png)
 
-*Figure 1: Figure: Diagram showing a Multithreaded execution.*
+*Figure: Diagram showing a Multithreaded execution.*
 
 
 This code generates a high-resolution image of the Mandelbrot set using multithreading for faster computation concurrently. The code uses thread-based multithreading `<thread>` library. Specifically, it creates multiple threads, where each thread is assigned a portion of the Mandelbrot set computation (a range of rows of the image). This form of multithreading allows multiple parts of the task to run concurrently on different CPU cores, thus speeding up the overall computation.
