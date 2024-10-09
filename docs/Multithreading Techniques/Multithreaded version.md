@@ -9,6 +9,8 @@ Multithreading  refers to the ability of a CPU (or a single core) to provide mul
   <em>Figure: Diagram showing a Multithreaded execution.</em>
 </p>
 
+![Figure 1: Figure: Diagram showing a Multithreaded execution..](../Figures/Multithreading_diagram.png)
+*Figure 1: Figure: Diagram showing a Multithreaded execution.*
 
 
 This code generates a high-resolution image of the Mandelbrot set using multithreading for faster computation concurrently. The code uses thread-based multithreading `<thread>` library. Specifically, it creates multiple threads, where each thread is assigned a portion of the Mandelbrot set computation (a range of rows of the image). This form of multithreading allows multiple parts of the task to run concurrently on different CPU cores, thus speeding up the overall computation.
