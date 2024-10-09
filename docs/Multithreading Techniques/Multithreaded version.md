@@ -4,7 +4,7 @@ Multithreading  refers to the ability of a CPU (or a single core) to provide mul
 
 
 <p align="center">
-  <img src="/Figures/Multithreading_diagram.png" alt="Multithreaded execution" width="60%">
+  <img src="/docs/Figures/Multithreading_diagram.png" alt="Multithreaded execution" width="60%">
   <br>
   <em>Figure: Diagram showing a Multithreaded execution.</em>
 </p>
