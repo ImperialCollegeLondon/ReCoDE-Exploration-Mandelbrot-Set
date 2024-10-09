@@ -3,13 +3,8 @@
 Multithreading  refers to the ability of a CPU (or a single core) to provide multiple threads of execution concurrently. Threads are the smallest parts of a program that can be managed by the operating system. In multithreading, multiple threads use the same memory but can run independently. This allows them to do different tasks or parts of a task at the same time which can make I/O-bound programs more efficient or help keep user interfaces responsive. This means they can do different jobs or parts of a job at the same time. Multithreading allows the main program to remain responsive while background tasks execute. In this context, *concurrency* is the ability of a system to manage multiple tasks at the same time, but not always at the exact same moment.
 
 
-<p align="center">
-  <img src="/docs/Figures/Multithreading_diagram.png" alt="Multithreaded execution" width="60%">
-  <br>
-  <em>Figure: Diagram showing a Multithreaded execution.</em>
-</p>
-
 ![Figure 1: Figure: Diagram showing a Multithreaded execution..](../Figures/Multithreading_diagram.png)
+
 *Figure 1: Figure: Diagram showing a Multithreaded execution.*
 
 
