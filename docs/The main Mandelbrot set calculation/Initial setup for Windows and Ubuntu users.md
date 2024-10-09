@@ -34,13 +34,13 @@ sudo apt install build-essential
 You should see the following output on your screen and we are ready to go:
 
 ```
-Width of the image: 1000
-Height of the image: 1000
-Total scaling time: 0.000195 seconds
-Total iteration time: 4.40833 seconds
-Total time taken to compute the Mandelbrot set: 4.75835 seconds
+Width of the image:5000
+Height of the image: 5000
+Total scaling time: 0.007769 seconds
+Total iteration time: 275.241 seconds
+Total time taken to compute the Mandelbrot set (single-threaded version): 288.617 seconds
 Number of CPUs used: 12
-Total time taken to save the Mandelbrot set to file: 0.209204 seconds
-Mandelbrot set with gradient coloring has been written to mandelbrot_gradient.ppm
+Total time it takes to generate image: 6.57477 seconds
+Mandelbrot set with colormap: mandelbrot_gradient.ppm
 ```
 
