@@ -10,7 +10,7 @@ Regarding **memory access**, the nested loops can also be inefficient. The outer
 
 
 <p align="center">
-  <img src="/Figures/Single_thread_diagram.png" alt="Single-threaded execution" width="60%">
+  <img src="/docs/Figures/Single_thread_diagram.png" alt="Single-threaded execution" width="60%">
   <br>
   <em>Figure: Diagram showing a single-threaded execution.</em>
 </p>
