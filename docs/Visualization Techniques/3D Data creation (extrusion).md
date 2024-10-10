@@ -116,7 +116,7 @@ We finally write the iteration counts for each \((x, y)\) point in the 2D grid f
 
 **Checking the output:**
 
-Likewise, once you have done this a \texttt{.vtk} would have been created and when you open the file with VIM.
+Likewise, once you have done this a `.vtk` would have been created and when you open the file with VIM.
 ```cpp
 vim mandelbrot_3d_smooth.vtk
 ```
@@ -147,7 +147,7 @@ POINTS 100000000 float
 -1.95495 -1.5 0.00944007
 // Rest of the file
 ```
-Remember that a 3D output needs the x,y coordinates to fully define the spatial relationships of the points as compared to the 2D output presented earlier. After the \texttt{POINTS} section, you would typically have the \texttt{POINT\_DATA} section followed by the scalar values associated with each point and should look like this. 
+Remember that a 3D output needs the x,y coordinates to fully define the spatial relationships of the points as compared to the 2D output presented earlier. After the `POINTS` section, you would typically have the `POINT_DATA` section followed by the scalar values associated with each point and should look like this. 
 ```
 POINT_DATA 100000000
 SCALARS mandelbrot_iterations int 1
